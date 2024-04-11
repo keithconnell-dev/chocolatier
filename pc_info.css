@@ -1,0 +1,87 @@
+/* New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 3
+   Tutorial Case
+   Positioning Styles for the pc_info.html file
+   Author: keith
+   Date:  3.27.24
+   Filename: pc_info.css   */
+
+/*div selector, class infobox*/
+div.infobox {
+   /*as long as a div has that(infobox) class name, it affectivly disappears(aka becomes hidden) on screen*/
+   display: none; } 
+/* Main Styles */
+main {
+ /*relative to where it would normally be */  
+   position: relative;
+ /*overflow: scroll; /* applies scroll bars
+   overflow: auto;  /*makes browser decide where a scroll bar is needed
+   overflow: visible; 
+   overflow: hidden; /*totally cuts it off*/
+/*normally we let the content determine the height, but this establishes a fixed height*/height: 1400px;
+/*100% of body, bc parent of this element is the body*/ width: 100%; /* border: 2px solid red;*/ }
+
+
+/* Infographic Styles.. an ingrophahpic is an image that is more assoiacted with putting out information ie diagrams or charts */
+/*these will be measured from the same point, which is the parent elemnt*/ div.infobox {  position: absolute;  }
+/*if you did position relative above,it would be where or relative to where it would be normally(like falling)*/
+
+/* First Infographic */
+div#info1 {
+/*this gets it visible on screen again*/display: block;
+   top: 20px;
+   Left: 5%;   /*border: 2px solid red;*/ }
+
+
+/* Second Infographic */
+div#info2 {
+   display: block;
+   top: 185px;
+   Left: 42%;  /*border: 2px solid yellow;*/ }
+
+
+/* Third Infographic */
+div#info3 {
+   display: block;
+   top: 135px;
+   Left: 75%;   /*border: 2px solid yellow;*/ }
+
+
+/* Fourth Infographic */
+div#info4 {
+   display: block;
+   top: 510px;
+   Left: 8%;   /*border: 2px solid yellow;*/ }
+
+
+/* Fifth Infographic */
+div#info5 {
+   display: block;
+   top: 800px;
+   Left: 3%;  /* border: 2px solid yellow;*/ }
+
+
+/* Sixth Infographic */
+div#info6 {
+   display: block;
+   top: 600px;
+   Left: 48%;   /*border: 2px solid yellow;*/ }
+
+
+/* Seventh Infographic */
+div#info7 {
+   display: block;
+   top: 1000px;
+   left: 68%;  /*border: 2px solid yellow;*/ }
+
+
+/* Eighth Infographic */
+div#info8 {
+   display: block;
+   top: 1100px;
+   Left: 12%;  /*border: 2px solid yellow;*/ } 
+
+
+
+
+
